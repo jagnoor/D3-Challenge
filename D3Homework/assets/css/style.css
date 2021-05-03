@@ -29,3 +29,23 @@ body {
   margin: 0;
   font-size: 16px;
 }
+.tooltip {
+  position: absolute;
+  width: 135px;
+  height: 60px;
+  padding: 2px;
+  padding-top: 8px;
+  font: 12px sans-serif;
+  color: lightpink;
+  text-align: center;
+  background: black;
+  border: 0;
+  border-radius: 10px;
+}
+
+.axisText {
+  font-family: sans-serif;
+  font-weight: bold;
+  fill: dark black;
+  text-anchor: middle;
+}
